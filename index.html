@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    
+        <!-- CSS only -->
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- js-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src="/path/to/bootstrap.min.js"></script>
+<script src="/path/to/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="js/jquery.mycart.js"></script>
+<script src="cart/cart.js"></script>
+<title>
+    Abu's botique Shopping!!!
+</title>
+<style>
+    /* Make the image fully responsive */
+    h2 {
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 80px;
+}
+.circle{
+    text-align: center;
+}
+.carousel .item-price span {
+	color: #86bd57;
+	font-size: 110%;
+}
+.star-rating i {
+	font-size: 14px;
+	color: #ffc000;
+}
+    h1 b{ 
+color:aqua;
+    }
+    .center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+    </style>
+    </head>
+    <body>
+<main class="cd-main container margin-top-xxl">
+    <div class="text-component text-center">
+    <nav class="navbar navbar-dark bg-primary ">
+        <a class="nav-brand">Abu's Botique</a>        <a href="#" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+          </a>        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+    </nav>
+    
+    </div>  <div> 
+        <span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
+    <h1 style="text-align: center;">Trending <b>Products</b></h1></div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="img/ipad.jpg" alt="Trendy costumes">
+                    
+                    product-1 <h4>Apple ipod</h4>
+                    <p class="item-price"><strike>$50,000</strike> <span>$40,000</span></p>
+                  <div class="star-rating">
+                      <ul class="list-inline">
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          
+                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                      </ul>
+                  </div>
+        
+
+
+                </div>
+        <div class="col-sm-3">
+            <img src="img/headphone.jpg" height="320">
+            product-2<h4>Sony Headphone</h4>
+            
+        <div class="item-price"><strike>$300</strike> <span>$250</span></div>
+        <div class="star-rating">
+            <ul class="list-inline">
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star-half-o"></i> </li>  
+    </ul>         
+    </div>
+    <button class="btn btn-danger my-cart-btn" data-id="2" data-name="product 2" data-summary="summary 2" data-pric="20" data-quantity="1" data-image="s">Add to Cart</button>
+        </div>
+    <div class="col-sm-3">
+        <img src="img/macbook-air.jpg" >
+        <h4>macbook-pro</h4>
+        <div class="item-rating"><strike>$600</strike>  <span>$559</span></div>
+        <div class="star-rating">
+            <ul class="list-inline"></ul>
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star-half-o"></i> </li>  
+             </div>
+             <a href="#" class="btn btn-primary">Add To Cart</a>
+        
+    </div>
+    <div class="col-sm-3">
+        <img src="img/nikon.jpg" height="320" width="250">
+
+
+        <h4> nikon camera</h4>
+        <div class="item-rating"><strike>$600</strike>  <span>$559</span></div>
+        <div class="star-rating">
+            <ul class="list-inline"></ul>
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+            <li class="list-inline-item"><i class="fa fa-star-half-o"></i> </li>  
+             </div>
+             <a href="#" class="btn btn-primary">Add To Cart</a> 
+    </div>
+    </div></div>
+          <div class="carousel-item">
+              <div class="row">
+                  <div class="col-ms-3">
+            <img src="img/1.jpeg" alt="Chicago" height="320" width="350">
+            <h4> shoes Outfit</h4>
+            <div class="item-rating"><strike>$600</strike>  <span>$559</span></div>
+            <div class="star-rating">
+                <ul class="list-inline"></ul>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star-half-o"></i> </li>  
+                 </div>
+                 <a href="#" class="btn btn-primary">Add To Cart</a>
+                 </div> 
+
+                 <div class="col-ms-3">
+                    <img src="img/2.jpeg" alt="Chicago" height="320" width="350">
+                    <h4> puma Outfit</h4>
+                    <div class="item-rating"><strike>$600</strike>  <span>$559</span></div>
+                    <div class="star-rating">
+                        <ul class="list-inline"></ul>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i> </li>  
+                         </div>
+                         <a href="#" class="btn btn-primary">Add To Cart</a> 
+        </div>
+        <div class="col-ms-3">
+            <img src="img/3.jpg" alt="Chicago"width="350" height="350">
+            <h4> Jean Outfit</h4>
+            <div class="item-rating"><strike>$600</strike>  <span>$559</span></div>
+            <div class="star-rating">
+                <ul class="list-inline"></ul>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                <li class="list-inline-item"><i class="fa fa-star-half-o"></i> </li>  
+                 </div>
+                 <a href="#" class="btn btn-primary">Add To Cart</a> 
+
+          </div>
+          </div></div>
+
+          <div class="carousel-item">
+              <div class="row">
+                <div class="col-ms-3">
+                    <img src="img/4.jpeg" alt="Chicago"width="350" height="350">
+                    <h4> Jean Outfit</h4>
+                    <div class="item-rating"><strike>$600</strike>  <span>$559</span></div>
+                    <div class="star-rating">
+                        <ul class="list-inline"></ul>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i> </li>  
+                         </div>
+                         <a href="#" class="btn btn-primary">Add To Cart</a> 
+        
+                  </div>   
+                  <div class="col-ms-3">
+                    <img src="img/b.jpg" alt="Chicago"width="350" height="350">
+                    <h4> Jean Outfit</h4>
+                    <div class="item-rating"><strike>$600</strike>  <span>$559</span></div>
+                    <div class="star-rating">
+                        <ul class="list-inline"></ul>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i> </li>  
+                         </div>
+                         <a href="#" class="btn btn-primary">Add To Cart</a> 
+        
+                  </div>
+                  <div class="col-ms-3">
+                    <img src="img/8.jpeg" alt="Chicago"width="350" height="350">
+                    <h4> Jean Outfit</h4>
+                    <div class="item-rating"><strike>$600</strike>  <span>$559</span></div>
+                    <div class="star-rating">
+                        <ul class="list-inline"></ul>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i> </li>
+                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i> </li>  
+                         </div>
+                         <a href="#" class="btn btn-primary">Add To Cart</a> 
+        
+                  </div>
+            
+          </div></div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+
+      <h1 style="text-align: center;"> Snippets </h1>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+<!-- The slideshow -->
+<div class="carousel-inner">
+    <div class="carousel-item active">
+<img  src="img/c.jpg" class="rounded-circle center-block"  height="350" width="350">
+<h4 style="text-align: center;">-APARNA Web Developer.</h4>
+ 
+    </body>
+</html>
